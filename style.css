@@ -53,6 +53,16 @@ section.random {
 /****************************************************************
                             QUOTES SECTION
 ****************************************************************/
+.quotes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quotes p.quote-author {
+    align-self: flex-end;
+}
 
 /****************************************************************
                         CALL TO ACTION SECTION
