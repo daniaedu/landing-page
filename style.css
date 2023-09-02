@@ -37,6 +37,18 @@ main {
 /****************************************************************
                             RANDOM SECTION
 ****************************************************************/
+section.random {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.random-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 /****************************************************************
                             QUOTES SECTION
